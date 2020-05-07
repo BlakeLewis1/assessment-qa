@@ -207,7 +207,15 @@ def six(input):
 	# How do we ignore case in a String? help(str) may offer some insight.
 
 def seven(input):
-    return 0
+	vowels = input 
+	split = vowels.split
+	count = vowels.count.casefold(("a","i","e","o"))
+	if count <=0:
+		return 0
+	else:
+		return(count)
+
+    
 
 	# <QUESTION 8>
 
