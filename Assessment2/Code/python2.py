@@ -176,8 +176,9 @@ def four(input1, input2):
 	# There are no hints for this question.
     
 def six(input):
-	string = input("enter your string")
+	string = input.lower(("enter your string"))
 	if (string.endswith('py,') != -1):
+
 		return True
 	else:
 		return False
